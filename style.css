@@ -5,15 +5,79 @@
 body{
     background-color: rgb(255, 184, 98);
 }
-.main-container{
-    text-align: center;
-}
 h1{
     font-size: 80px;
+    text-align: center;
     text-shadow: 1px 3px skyblue;
 }
+.main-container img{
+    margin-left: 400px;
+    width: 600px;
+    z-index: -1;
+    position: absolute;
+}
 .main-container button{
-    font-size: 80px;
+    position:absolute;
+    font-size: 30px;
+    border: none;
+    padding: 5px;
+    background-color: white;
+}
+.e{
+    margin-top: 80px;
+    margin-left: 490px;
+}
+.r{
+    margin-left: 570px;
+    margin-top: 80px;
+}
+.f{
+    margin-top: 300px;
+    margin-left: 550px;
+}
+.v{
+    margin-left: 650px;
+    margin-top: 350px;
+}
+.b{
+    margin-left: 740px;
+    margin-top: 350px;
+}
+.g{
+    margin-top: 220px;
+    margin-left: 620px;
+}
+.h{
+    margin-top: 230px;
+    margin-left: 750px;
+}
+.j{
+    margin-top: 270px;
+    margin-left: 820px;
+}
+.i{
+    margin-top: 140px;
+    margin-left: 800px;
+}
+.k{
+    margin-top: 140px;
+    margin-left: 900px;
+}
+.mapping-container{
+    margin-left: 1100px;
+    padding: 20px;
+    background-color: black;
+}
+.mapping-container h2{
+    color: white;
+    padding-left: 50px;
+}
+.mapping-container p{
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5px;
+}
+.mapping-container button{
     padding: 10px;
-    background-color: aqua;
 }
